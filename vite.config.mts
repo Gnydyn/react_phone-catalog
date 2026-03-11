@@ -5,5 +5,6 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/react_phone-catalog/',
   plugins: [react(), tsconfigPaths(), tailwindcss()],
 });
